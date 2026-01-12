@@ -1,0 +1,39 @@
+#container{
+    height: 200px;
+    width: 200px;
+    background-color:brown;
+    position: relative;
+}
+.box{
+    box-sizing: border-box;
+    
+}
+.first,.third,.second,.fifth{
+    height: 55px;
+    width: 200px;
+    background-color: red;
+}
+.third{
+    position: absolute;
+    bottom: 0px;
+    background-color: red;
+}
+.second{
+    position: absolute;
+    height: 90px;
+    top: 55px;
+    bottom: 55px;
+    background-color:blue;
+}
+.fifth{
+    height: 75px;
+    width: 100px;
+    background-color: white;
+
+    border-radius:  50%;
+    position:absolute;
+    left: 50px;
+    top: 65px;
+    bottom: 65px;
+
+}
